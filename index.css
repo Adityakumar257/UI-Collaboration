@@ -1,0 +1,272 @@
+/* From Uiverse.io by AqFox */ 
+.custom-btn {
+  width: 130px;
+  height: 40px;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px 25px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  box-shadow: inset 2px 2px 2px 0px rgba(255,255,255,.5),
+   7px 7px 20px 0px rgba(0,0,0,.1),
+   4px 4px 5px 0px rgba(0,0,0,.1);
+  outline: none;
+  font-size: 15px;
+}
+
+.btn-2 {
+  background: #020f2cdc;
+  background: linear-gradient(0deg, #020c24 0%, #004dff 100%);
+  border: none;
+}
+
+.btn-2:before {
+  height: 0%;
+  width: 2px;
+}
+
+.btn-2:hover {
+  box-shadow: 4px 4px 6px 0 rgba(255,255,255,.5),
+              -4px -4px 6px 0 rgba(116, 125, 136, .5), 
+    inset -4px -4px 6px 0 rgba(255,255,255,.2),
+    inset 4px 4px 6px 0 rgba(0, 0, 0, .4);
+}
+.Rise{
+  color: #004dff;
+}
+/* From Uiverse.io by Samalander0 */ 
+.cards {
+  width: 320px;
+  background: #fff480;
+  color: black;
+  position: relative;
+  border-radius: 2.5em;
+  padding: 2em;
+  transition: transform 0.4s ease;
+}
+
+.cards .cards-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 5em;
+  height: 100%;
+  transition: transform 0.4s ease;
+}
+
+.cards .cards-top, .cards .cards-bottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cards .cards-top p, .cards .cards-top .cards-title, .cards .cards-bottom p, .cards .cards-bottom .cards-title {
+  margin: 0;
+}
+
+.cards .cards-title {
+  font-weight: bold;
+}
+
+.cards .cards-top p, .cards .card-bottom p {
+  font-weight: 600;
+}
+
+.cards .cards-bottom {
+  align-items: flex-end;
+}
+
+.cards .cards-image {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  display: grid;
+  place-items: center;
+  pointer-events: none;
+}
+
+.cards .cards-image svg {
+  width: 4em;
+  height: 4em;
+  transition: transform 0.4s ease;
+}
+
+.cards:hover {
+  cursor: pointer;
+  transform: scale(0.97);
+}
+
+.cards:hover .cards-content {
+  transform: scale(0.96);
+}
+
+.cards:hover .cards-image svg {
+  transform: scale(1.05);
+}
+
+.cards:active {
+  transform: scale(0.9);
+}
+
+.card1 {
+  width: 320px;
+  background: #fff480;
+  color: black;
+  position: relative;
+  border-radius: 2.5em;
+  padding: 2em;
+  transition: transform 0.4s ease;
+}
+
+.card1 .card1-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 5em;
+  height: 100%;
+  transition: transform 0.4s ease;
+}
+
+.card1 .card1-top, .card1 .card1-bottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card1 .card1-top p, .card1 .card1-top .card1-title, .card1 .card1-bottom p, .card1 .card1-bottom .card1-title {
+  margin: 0;
+}
+
+.card1 .card1-title {
+  font-weight: bold;
+}
+
+.card1 .card1-top p, .card1 .card1-bottom p {
+  font-weight: 600;
+}
+
+.card1 .card1-bottom {
+  align-items: flex-end;
+}
+
+.card1 .card1-image {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  display: grid;
+  place-items: center;
+  pointer-events: none;
+}
+
+.card1 .card1-image svg {
+  width: 4em;
+  height: 4em;
+  transition: transform 0.4s ease;
+}
+
+.card1:hover {
+  cursor: pointer;
+  transform: scale(0.97);
+}
+
+.card1:hover .card1-content {
+  transform: scale(0.96);
+}
+
+.card1:hover .cards-image svg {
+  transform: scale(1.05);
+}
+
+.card1:active {
+  transform: scale(0.9);
+}
+/* card 2 */
+
+.card1 {
+  width: 320px;
+  background: #041e4e;
+  color: rgb(7, 23, 116);
+  position: relative;
+  border-radius: 2.5em;
+  padding: 2em;
+  transition: transform 0.4s ease;
+}
+
+.card2 .card2-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 5em;
+  height: 100%;
+  transition: transform 0.4s ease;
+}
+
+.card2 .card2-top, .card2 .card2-bottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card2 .card2-top p, .card2 .card2-top .card2-title, .card2 .card2-bottom p, .card2 .card2-bottom .card2-title {
+  margin: 0;
+}
+
+.card2 .card2-title {
+  font-weight: bold;
+}
+
+.card2 .card2-top p, .card2 .card2-bottom p {
+  font-weight: 600;
+}
+
+.card2 .card2-bottom {
+  align-items: flex-end;
+}
+
+.card2 .card2-image {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  display: grid;
+  place-items: center;
+  pointer-events: none;
+}
+
+.card2 .card2-image svg {
+  width: 4em;
+  height: 4em;
+  transition: transform 0.4s ease;
+}
+
+.card2:hover {
+  cursor: pointer;
+  transform: scale(0.97);
+}
+
+.card2:hover .card2-content {
+  transform: scale(0.96);
+}
+
+.card2:hover .card2-image svg {
+  transform: scale(1.05);
+}
+
+.card2:active {
+  transform: scale(0.9);
+}
+
+.first{
+  color: #004dff;
+}
+
+
+
+
